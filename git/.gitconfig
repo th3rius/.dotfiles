@@ -1,0 +1,8 @@
+[filesystem "Oracle Corporation|1.8.0_232|/dev/mapper/vg0-root"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 3271 microseconds
+[user]
+	name = th3rius
+	email = gabriel.o03@aluno.ifsc.edu.br
+[credential]
+	helper = cache --timeout=3600

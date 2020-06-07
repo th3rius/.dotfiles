@@ -1,0 +1,33 @@
+{
+  /* configurações do editor */
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": { ".prettierrc": "yaml", "package.json": "jsonc" },
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "telemetry.enableTelemetry": false,
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Dracula Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
+  /* plugins */
+  "eslint.validate": ["javascript, typescript"],
+  "eslint.format.enable": true,
+  "tslint.autoFixOnSave": true,
+  "tslint.ignoreDefinitionFiles": false,
+
+  /* formatadores */
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": { "editor.defaultFormatter": "dbaeumer.vscode-eslint" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[dart]": { "editor.defaultFormatter": "Dart-Code.dart-code" },
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}
