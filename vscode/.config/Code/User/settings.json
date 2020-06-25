@@ -1,5 +1,5 @@
 {
-  /* configurações do editor */
+  /* Configurações do editor */
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
@@ -7,9 +7,11 @@
   "editor.fontLigatures": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "files.associations": { ".prettierrc": "yaml", "package.json": "jsonc" },
+  "files.associations": { ".prettierrc": "yaml" },
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "telemetry.enableTelemetry": false,
   "window.menuBarVisibility": "toggle",
@@ -18,16 +20,20 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
 
-  /* plugins */
+  /* Plugins */
   "eslint.validate": ["javascript, typescript"],
   "eslint.format.enable": true,
   "tslint.autoFixOnSave": true,
   "tslint.ignoreDefinitionFiles": false,
+  "rewrap.autoWrap.enabled": true,
+  "rewrap.doubleSentenceSpacing": true,
+  "rewrap.reformat": true,
 
-  /* formatadores */
+  /* Formatadores */
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": { "editor.defaultFormatter": "dbaeumer.vscode-eslint" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[dart]": { "editor.defaultFormatter": "Dart-Code.dart-code" },
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  }
 }

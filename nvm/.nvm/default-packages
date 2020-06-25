@@ -1,0 +1,5 @@
+@angular/cli
+@nestjs/cli
+npm-check-updates
+elasticsearch-dump
+expo-cli

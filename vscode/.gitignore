@@ -1,0 +1,2 @@
+.config/*
+!.config/Code/User/settings.json
